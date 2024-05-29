@@ -4,7 +4,7 @@ Reproduction for [Renovate issue 12260](https://github.com/renovatebot/renovate/
 
 ## Current behavior
 
-Renovate removes comments from `jobs.jobname.steps.uses` even when commit hash pinning is disabled.
+Renovate removes comments from `jobs.jobname.steps.uses`, even when commit hash pinning is disabled.
 
 ```yaml
 jobs:
@@ -22,7 +22,7 @@ jobs:
 
 ### Commit hash pinning disabled
 
-Renovate keeps original comment if commit hash pinning is disabled.
+If commit hash pinning is disabled, then Renovate keeps the original comment.
 
 
 ```yaml
@@ -39,7 +39,7 @@ jobs:
 
 ### Commit hash pinning enabled
 
-When commit hash pinning is enabled, then Renovate puts the tag right behind the action name, and moves the original comment further down the line.
+If commit hash pinning is enabled, then Renovate puts the tag right behind the action name, and moves the original comment further down the line.
 
 ```yaml
 jobs:
