@@ -1,6 +1,6 @@
 # 12260
 
-Reproduction for Renovate issue https://github.com/renovatebot/renovate/issues/12260
+Reproduction for [Renovate issue 12260](https://github.com/renovatebot/renovate/issues/12260).
 
 ## Current behavior
 
