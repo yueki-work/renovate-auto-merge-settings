@@ -1,4 +1,5 @@
 # 12260
+
 Reproduction for Renovate issue https://github.com/renovatebot/renovate/issues/12260
 
 ## Current behavior
@@ -38,7 +39,7 @@ jobs:
 
 ### Commit hash pinning enabled
 
-When commit hash pinning is enabled, then Renovate puts the tag right behind the action name, and moves the original comment further down the line
+When commit hash pinning is enabled, then Renovate puts the tag right behind the action name, and moves the original comment further down the line.
 
 ```yaml
 jobs:
